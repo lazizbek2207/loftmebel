@@ -1,0 +1,9 @@
+#favourite-row{
+    /* background-color: red !important; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#favourite-row img{
+    width: 50%;
+}

@@ -1,0 +1,27 @@
+.message {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    box-shadow: 0 0 10px #ccc;
+    padding: 20px;
+    background-color: #fff;
+    border-left: 5px solid crimson;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 0.5s;
+    visibility: hidden;
+}
+
+.message-title {
+ color: crimson;
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+.message-text {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
